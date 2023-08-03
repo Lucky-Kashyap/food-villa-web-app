@@ -58,7 +58,7 @@ const Body = () => {
           onChange={(e) => setSearchText(e.target.value)}
           placeholder="Search"
         />
-        {searchText}
+        
         <button
           className="search-btn"
           onClick={() => {
